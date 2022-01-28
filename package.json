@@ -1,0 +1,17 @@
+{
+  "name": "kaholo",
+  "version": "1.0.0",
+  "description": "This is a interview task",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "cy:open:local": "cypress open --env configFile=local",
+    "cy:run:local": "cypress run --env configFile=local --browser chrome"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "cypress": "^9.3.1",
+    "prettier": "2.5.1"
+  }
+}

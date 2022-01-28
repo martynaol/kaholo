@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://qa-task.netlify.app/",
+  "retries": {
+    "runMode": 1,
+    "openMode": 1
+  }
+}
